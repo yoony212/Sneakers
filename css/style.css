@@ -103,3 +103,52 @@ header .header-wrapper img {
 .feature-contents .feature-item-wrap-date p {
   font-size: 12px;
 }
+
+.contact {
+  background-color: black;
+}
+
+.contact-title {
+  text-align: center;
+  margin-bottom: 30px;
+  padding-top: 50px;
+}
+
+.contact-title h2 {
+  color: white;
+}
+
+.contact-wrapper {
+  padding-bottom: 50px;
+}
+
+.contact-contents {
+  display: flex;
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.contact-contents-left {
+  max-width: 45%;
+}
+
+.contact-contents-left p {
+  color: white;
+  margin-bottom: 30px;
+}
+
+.contact-contents-right {
+  max-width: 100%;
+}
+
+.contact-contents-right dt label {
+  color: white;
+}
+
+.contact-contents-right-item {
+  margin-bottom: 20px;
+}
+
+.contact-contents-right-item-name {
+  max-width: 500px;
+}
