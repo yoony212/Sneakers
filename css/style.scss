@@ -113,34 +113,59 @@ header {
 
   &-contents {
     display: flex;
+    justify-content: space-between;
     max-width: 1240px;
+    width: 100%;
     margin: 0 auto;
     &-left {
-      max-width: 45%;
+      width: 45%;
       & p {
         color: white;
         margin-bottom: 30px;
+        font-size: 14.4px;
       }
     }
 
     &-right {
-      max-width: 100%;
+      width: 45%;
       & dt label {
         color: white;
+        font-size: 14.4px;
       }
       &-item {
         margin-bottom: 20px;
-        &-name {
-          max-width: 500px;
-          
+        & #name {
+          width: 96%;
+          padding: 10px;
         }
-        &-mail {
-          
+        & #mail {
+          width: 96%;
+          padding: 10px;
         }
-        &-message {
-
+        & #message {
+          width: 96%;
+          padding: 10px;
         }
       }
+      &-button {
+        display: inline-block;
+        width: 200px;
+        border: 1px solid white;
+        line-height: 2.5;
+        color: white;
+        background-color: black;
+        padding: 10px 0;
+      }
     }
+  }
+}
+
+.copy {
+  text-align: center;
+  padding: 10px 0;
+
+  & p {
+    font-size: 12px;
+    color: white;
   }
 }
