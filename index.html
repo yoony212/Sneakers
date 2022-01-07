@@ -15,8 +15,13 @@
       <img src="img/logo.svg">
     </div>
     <div class="humberger">
-      <span></span>
+      <div class="humberger-button">
+        <span></span>
+      </div>
+      <div class="humberger-list">
+      </div>
     </div>
+
   </header>
 
   <div class="kv">
@@ -187,22 +192,35 @@
           <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
           <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
         </div>
-        <dl class="contact-contents-right">
-          <dt><label for="name">Name:</label></dt>
-          <dd class="contact-contents-right-item">
-            <input type="text" class="contact-contents-right-item-name box">
-          </dd>
-          <dt><label for="mail">Mail:</label></dt>
-          <dd class="contact-contents-right-item">
-            <input type="text" class="contact-contents-right-item-mail box">
-          </dd>
-          <dt><label for="message">Message:</label></dt>
-          <dd class="contact-contents-right-item">
-            <input type="text" class="contact-contents-right-item-message box">
-          </dd>
-        </dl>
+        <div  class="contact-contents-right">
+          <form action="#">
+            <dl>
+              <dt>
+                <label for="name">Name:</label>
+              </dt>
+              <dd class="contact-contents-right-item">
+                <input type="text" id="name">
+              </dd>
+              <dt>
+                <label for="mail">Mail:</label>
+              </dt>
+              <dd class="contact-contents-right-item">
+                <input type="mail" id="mail">
+              </dd>
+              <dt>
+                <label for="message">Message:</label>
+              </dt>
+              <dd class="contact-contents-right-item">
+                <textarea id="message"></textarea>
+              </dd>
+            </dl>
+            <input class="contact-contents-right-button" type="submit" value="SEND">SEND</input>
+          </form>
+        </div>
       </div>
-      <div class="copy">© Sneakers</div>
+    </div>
+    <div class="copy">
+      <p>© Sneakers</p>
     </div>
   </div>
 
